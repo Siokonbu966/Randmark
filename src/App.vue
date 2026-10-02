@@ -15,10 +15,12 @@ async function onFileChange(e: Event) {
 </script>
 
 <template>
-  <input type="file" accept=".html" @change="onFileChange" />
-  <ul>
-    <li v-for="b in results" :key="b.url">
-      <a :href="b.url" target="_blank">{{ b.title }}</a>
-    </li>
-  </ul>
+  <div class="main">
+    <input class="getFileButton" type="file" accept=".html" @change="onFileChange" />
+    <ul>
+      <li v-for="b in results" :key="b.url">
+        <a :href="b.url" target="_blank">{{ b.title }}</a>
+      </li>
+    </ul>
+  </div>
 </template>

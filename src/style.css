@@ -294,3 +294,12 @@ code {
     border-right-color: var(--border);
   }
 }
+
+.main {
+  padding-top: 50%;
+}
+
+.getFileButton {
+  max-width: 100%;
+  max-height: 100%;
+}
