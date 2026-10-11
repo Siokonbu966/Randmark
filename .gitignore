@@ -25,3 +25,7 @@ dist-ssr
 
 # user
 .direnv/
+
+# cloudflare
+.wrangler/
+worker/.dev.vars
