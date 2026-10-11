@@ -296,7 +296,11 @@ code {
 }
 
 .main {
-  padding-top: 20rem;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .getFileButton {

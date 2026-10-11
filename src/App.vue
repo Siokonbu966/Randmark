@@ -20,6 +20,9 @@ async function onFileChange(e: Event) {
 <template>
   <div class="main">
     <div>
+      <h1>Randmark</h1>
+    </div>
+    <div>
       <button class="getFileButton" @click="fileInput?.click()">import</button>
       <span class="fileName">{{ fileName }}</span>
       <input ref="fileInput" type="file" accept=".html" @change="onFileChange" />
